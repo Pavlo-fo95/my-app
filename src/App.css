@@ -27,6 +27,16 @@
 .App-link {
   color: #61dafb;
 }
+.Profile-photo {
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease; 
+}
+
+.rotating {
+  transform: rotate(360deg);
+}
 
 @keyframes App-logo-spin {
   from {
